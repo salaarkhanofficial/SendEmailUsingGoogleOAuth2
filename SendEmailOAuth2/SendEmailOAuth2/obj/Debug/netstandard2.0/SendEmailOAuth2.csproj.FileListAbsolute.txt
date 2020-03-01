@@ -1,0 +1,8 @@
+C:\Users\qazis\source\repos\SendEmailOAuth2\SendEmailOAuth2\bin\Debug\netstandard2.0\SendEmailOAuth2.deps.json
+C:\Users\qazis\source\repos\SendEmailOAuth2\SendEmailOAuth2\bin\Debug\netstandard2.0\SendEmailOAuth2.dll
+C:\Users\qazis\source\repos\SendEmailOAuth2\SendEmailOAuth2\obj\Debug\netstandard2.0\SendEmailOAuth2.csproj.CoreCompileInputs.cache
+C:\Users\qazis\source\repos\SendEmailOAuth2\SendEmailOAuth2\obj\Debug\netstandard2.0\SendEmailOAuth2.AssemblyInfoInputs.cache
+C:\Users\qazis\source\repos\SendEmailOAuth2\SendEmailOAuth2\obj\Debug\netstandard2.0\SendEmailOAuth2.AssemblyInfo.cs
+C:\Users\qazis\source\repos\SendEmailOAuth2\SendEmailOAuth2\bin\Debug\netstandard2.0\SendEmailOAuth2.pdb
+C:\Users\qazis\source\repos\SendEmailOAuth2\SendEmailOAuth2\obj\Debug\netstandard2.0\SendEmailOAuth2.dll
+C:\Users\qazis\source\repos\SendEmailOAuth2\SendEmailOAuth2\obj\Debug\netstandard2.0\SendEmailOAuth2.pdb

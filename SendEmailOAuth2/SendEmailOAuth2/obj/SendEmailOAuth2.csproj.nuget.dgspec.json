@@ -1,0 +1,70 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\qazis\\source\\repos\\SendEmailOAuth2\\SendEmailOAuth2\\SendEmailOAuth2.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\qazis\\source\\repos\\SendEmailOAuth2\\SendEmailOAuth2\\SendEmailOAuth2.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\qazis\\source\\repos\\SendEmailOAuth2\\SendEmailOAuth2\\SendEmailOAuth2.csproj",
+        "projectName": "SendEmailOAuth2",
+        "projectPath": "C:\\Users\\qazis\\source\\repos\\SendEmailOAuth2\\SendEmailOAuth2\\SendEmailOAuth2.csproj",
+        "packagesPath": "C:\\Users\\qazis\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\qazis\\source\\repos\\SendEmailOAuth2\\SendEmailOAuth2\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\qazis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 19.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "EASendMail": {
+              "target": "Package",
+              "version": "[7.6.0.2, )"
+            },
+            "Google.Apis.Oauth2.v2": {
+              "target": "Package",
+              "version": "[1.44.0.1602, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

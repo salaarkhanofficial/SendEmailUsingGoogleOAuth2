@@ -1,0 +1,157 @@
+{
+  "runtimeTarget": {
+    "name": ".NETStandard,Version=v2.0/",
+    "signature": "81cba0a03c8c6ad66b29655b19e3e38a109af279"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETStandard,Version=v2.0": {},
+    ".NETStandard,Version=v2.0/": {
+      "SendEmailOAuth2/1.0.0": {
+        "dependencies": {
+          "EASendMail": "7.6.0.2",
+          "Google.Apis.Oauth2.v2": "1.44.0.1602",
+          "NETStandard.Library": "2.0.3"
+        },
+        "runtime": {
+          "SendEmailOAuth2.dll": {}
+        }
+      },
+      "EASendMail/7.6.0.2": {
+        "runtime": {
+          "lib/net461/EASendMail.dll": {
+            "assemblyVersion": "7.6.0.2",
+            "fileVersion": "7.6.0.2"
+          }
+        }
+      },
+      "Google.Apis/1.44.0": {
+        "dependencies": {
+          "Google.Apis.Core": "1.44.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.dll": {
+            "assemblyVersion": "1.44.0.0",
+            "fileVersion": "1.44.0.0"
+          }
+        }
+      },
+      "Google.Apis.Auth/1.44.0": {
+        "dependencies": {
+          "Google.Apis": "1.44.0",
+          "Google.Apis.Core": "1.44.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.Auth.PlatformServices.dll": {
+            "assemblyVersion": "1.44.0.0",
+            "fileVersion": "1.44.0.0"
+          },
+          "lib/netstandard2.0/Google.Apis.Auth.dll": {
+            "assemblyVersion": "1.44.0.0",
+            "fileVersion": "1.44.0.0"
+          }
+        }
+      },
+      "Google.Apis.Core/1.44.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.3"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.Core.dll": {
+            "assemblyVersion": "1.44.0.0",
+            "fileVersion": "1.44.0.0"
+          }
+        }
+      },
+      "Google.Apis.Oauth2.v2/1.44.0.1602": {
+        "dependencies": {
+          "Google.Apis": "1.44.0",
+          "Google.Apis.Auth": "1.44.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.Oauth2.v2.dll": {
+            "assemblyVersion": "1.44.0.1602",
+            "fileVersion": "1.44.0.1602"
+          }
+        }
+      },
+      "Microsoft.NETCore.Platforms/1.1.0": {},
+      "NETStandard.Library/2.0.3": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0"
+        }
+      },
+      "Newtonsoft.Json/12.0.3": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.3.23909"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SendEmailOAuth2/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "EASendMail/7.6.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-axvkJ6WsZgJpnP93uO1f+oB9e6B0CiarvTYrEhibVmffpfeRaEsN9qD0IBGvWcw3NFVRn6axP6f5oA6cnvWVyQ==",
+      "path": "easendmail/7.6.0.2",
+      "hashPath": "easendmail.7.6.0.2.nupkg.sha512"
+    },
+    "Google.Apis/1.44.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8s0/UJWT/r7FEXObFTykRcmYauxU1Xi8IC3HHtYWRT9nUg51m1TjMMoLeBJUkuHw+O1y/Upkkj1ehJJea2naQg==",
+      "path": "google.apis/1.44.0",
+      "hashPath": "google.apis.1.44.0.nupkg.sha512"
+    },
+    "Google.Apis.Auth/1.44.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-DB8J2R0fOmX+Am8jMa03W2N1b//U3w4H4QuR3/CjnxuBTeJ42n5kO1EfEX7ikqItyPpC7e9MNLmYID05AwdgxA==",
+      "path": "google.apis.auth/1.44.0",
+      "hashPath": "google.apis.auth.1.44.0.nupkg.sha512"
+    },
+    "Google.Apis.Core/1.44.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cgpYSP+UCgdkt14qEiToHmurbAjqAfTyT/DcguqTwKNYlm90BRI3FS0soWm3ldIa5ckdrriPwcd1gStiXWSusQ==",
+      "path": "google.apis.core/1.44.0",
+      "hashPath": "google.apis.core.1.44.0.nupkg.sha512"
+    },
+    "Google.Apis.Oauth2.v2/1.44.0.1602": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ZyWBGW8SsTts8baJVBAq0vwRNnjgV8FIociOUyhI2oJkyVnxiArQKD8uSqPFXFS70AvQTHUn3VjGUYu4ioKAaw==",
+      "path": "google.apis.oauth2.v2/1.44.0.1602",
+      "hashPath": "google.apis.oauth2.v2.1.44.0.1602.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Platforms/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
+      "path": "microsoft.netcore.platforms/1.1.0",
+      "hashPath": "microsoft.netcore.platforms.1.1.0.nupkg.sha512"
+    },
+    "NETStandard.Library/2.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
+      "path": "netstandard.library/2.0.3",
+      "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
+    },
+    "Newtonsoft.Json/12.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
+      "path": "newtonsoft.json/12.0.3",
+      "hashPath": "newtonsoft.json.12.0.3.nupkg.sha512"
+    }
+  }
+}
